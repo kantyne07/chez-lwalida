@@ -27,7 +27,11 @@
             <small>Saveurs du Maroc</small>
         </a>
 
-        <nav>
+        <button class="menu-toggle" type="button" aria-label="Ouvrir le menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+
+        <nav class="main-nav">
             <a href="#accueil">Accueil</a>
             <a href="#restaurant">Le restaurant</a>
             <a href="#carte">La carte</a>
@@ -649,31 +653,31 @@
 
             <div class="gallery-item gallery-large">
                 <img
-                    src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1200&q=80"
+                    src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=1400&q=85"
                     alt="Cuisine marocaine">
             </div>
 
             <div class="gallery-item">
                 <img
-                    src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80"
+                    src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=900&q=85"
                     alt="Restaurant">
             </div>
 
             <div class="gallery-item">
                 <img
-                    src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80"
+                    src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=85"
                     alt="Plat généreux">
             </div>
 
             <div class="gallery-item">
                 <img
-                    src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=800&q=80"
+                    src="https://images.unsplash.com/photo-1533777857889-4be7c70b33f7?auto=format&fit=crop&w=900&q=85"
                     alt="Cuisine traditionnelle">
             </div>
 
             <div class="gallery-item gallery-wide">
                 <img
-                    src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+                    src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1400&q=85"
                     alt="Spécialités">
             </div>
 
@@ -1071,6 +1075,25 @@
 
 </footer>
 
+
+<script>
+    const toggle = document.querySelector(".menu-toggle");
+    const nav = document.querySelector(".main-nav");
+
+    if (toggle && nav) {
+        toggle.addEventListener("click", () => {
+            const open = nav.classList.toggle("is-open");
+            toggle.setAttribute("aria-expanded", open);
+        });
+
+        nav.querySelectorAll("a").forEach(link => {
+            link.addEventListener("click", () => {
+                nav.classList.remove("is-open");
+                toggle.setAttribute("aria-expanded", "false");
+            });
+        });
+    }
+</script>
 
 </body>
 </html>
