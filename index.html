@@ -7,40 +7,33 @@
     <title>Chez l’Walida — Restaurant marocain à Muret</title>
 
     <meta name="description"
-        content="Chez l’Walida, restaurant marocain authentique à Muret. Découvrez nos couscous, tajines, pastillas et spécialités marocaines.">
+          content="Chez l’Walida, restaurant marocain à Muret. Découvrez nos spécialités marocaines, nos tajines, couscous et pâtisseries.">
 
     <link rel="stylesheet" href="style.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
-<!-- ================= HEADER ================= -->
+<!-- =========================
+     NAVIGATION
+========================= -->
 
-<header class="header">
+<header class="navbar">
 
-    <div class="container nav">
+    <div class="nav-container">
 
         <a href="#accueil" class="logo">
-            Chez l’Walida
+            <span>Chez l’Walida</span>
+            <small>Saveurs du Maroc</small>
         </a>
 
-        <nav class="nav-links">
+        <nav>
             <a href="#accueil">Accueil</a>
             <a href="#restaurant">Le restaurant</a>
             <a href="#carte">La carte</a>
             <a href="#galerie">Galerie</a>
-            <a href="#avis">Avis</a>
-            <a href="#contact">Contact</a>
+            <a href="#contact" class="nav-button">Réserver</a>
         </nav>
-
-        <a href="tel:0650630363" class="nav-button">
-            📞 Réserver
-        </a>
 
     </div>
 
@@ -49,43 +42,43 @@
 
 <main>
 
-<!-- ================= HERO ================= -->
+<!-- =========================
+     HERO
+========================= -->
 
-<section class="hero" id="accueil">
+<section id="accueil" class="hero">
 
     <div class="hero-overlay"></div>
 
-    <div class="container hero-content">
+    <div class="hero-content">
 
-        <span class="eyebrow">
-            Restaurant marocain à Muret
-        </span>
+        <span class="eyebrow">Restaurant marocain à Muret</span>
 
         <h1>
-            Les saveurs du Maroc,<br>
+            Les saveurs du Maroc,
             <span>à votre table.</span>
         </h1>
 
         <p>
             Une cuisine généreuse, authentique et chaleureuse,
-            préparée avec passion au cœur de Muret.
+            préparée avec passion à Muret.
         </p>
 
         <div class="hero-buttons">
 
             <a href="#carte" class="btn btn-primary">
-                🍽️ Découvrir notre carte
+                Découvrir la carte
             </a>
 
-            <a href="tel:0650630363" class="btn btn-outline">
-                📞 Nous appeler
+            <a href="tel:0650630363" class="btn btn-light">
+                📞 Appeler le restaurant
             </a>
 
         </div>
 
-        <div class="hero-rating">
-            <strong>★ 4,8 / 5</strong>
-            <span>65 avis Google</span>
+        <div class="rating">
+            <strong>★★★★★</strong>
+            <span>4,8/5 · 65 avis Google</span>
         </div>
 
     </div>
@@ -93,42 +86,31 @@
 </section>
 
 
-<!-- ================= INTRO ================= -->
+<!-- =========================
+     INTRODUCTION
+========================= -->
 
-<section class="intro section" id="restaurant">
+<section id="restaurant" class="section intro-section">
 
-    <div class="container intro-grid">
+    <div class="section-container intro-grid">
 
-        <div class="intro-image">
+        <div class="intro-text">
 
-            <img
-                src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1000&q=80"
-                alt="Cuisine marocaine">
-
-        </div>
-
-
-        <div class="intro-content">
-
-            <span class="section-label">
-                Notre histoire
-            </span>
+            <span class="section-tag">Bienvenue chez nous</span>
 
             <h2>
-                Une cuisine qui raconte<br>
-                <span>une histoire.</span>
+                Une cuisine marocaine
+                <span>pleine de caractère</span>
             </h2>
 
             <p>
-                Chez l’Walida vous invite à découvrir une cuisine
-                marocaine généreuse et authentique, dans une ambiance
-                chaleureuse et conviviale.
+                Chez l’Walida vous invite à découvrir une cuisine marocaine
+                généreuse et authentique, dans une ambiance chaleureuse.
             </p>
 
             <p>
-                Tajines parfumés, couscous généreux, pastillas
-                croustillantes et douceurs marocaines : chaque plat
-                est pensé pour vous faire voyager.
+                Tajines, couscous, pastillas et douceurs marocaines :
+                chaque plat est pensé pour faire voyager vos papilles.
             </p>
 
             <a href="#carte" class="text-link">
@@ -137,61 +119,215 @@
 
         </div>
 
+        <div class="intro-card">
+
+            <div class="intro-card-content">
+
+                <span>Chez l’Walida</span>
+
+                <h3>
+                    L’authenticité
+                    <br>
+                    dans votre assiette.
+                </h3>
+
+                <p>
+                    Une adresse à découvrir au cœur de Muret.
+                </p>
+
+            </div>
+
+        </div>
+
     </div>
 
 </section>
 
 
-<!-- ================= SPECIALITES ================= -->
+<!-- =========================
+     SPÉCIALITÉS
+========================= -->
 
-<section class="specialties section" id="carte">
+<section class="section specialties-section">
 
-    <div class="container">
+    <div class="section-container">
 
-        <div class="section-heading">
+        <div class="section-header">
 
-            <span class="section-label">
-                À découvrir
-            </span>
+            <span class="section-tag">Nos spécialités</span>
 
             <h2>
-                Nos spécialités
+                Les incontournables
             </h2>
 
             <p>
-                Des recettes généreuses inspirées de la tradition
-                marocaine.
+                Une sélection de spécialités marocaines
+                pour découvrir toute la richesse de notre cuisine.
             </p>
 
         </div>
 
 
-        <div class="cards">
+        <div class="specialties-grid">
 
-            <!-- TAJINES -->
+            <article class="specialty-card">
 
-            <article class="food-card">
+                <div class="specialty-image tajine-image"></div>
 
-                <div class="food-image">
+                <div class="specialty-content">
 
-                    <img
-                        src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=80"
-                        alt="Tajine marocain">
+                    <span class="specialty-number">01</span>
+
+                    <h3>Tajines</h3>
+
+                    <p>
+                        Des plats mijotés lentement, parfumés aux épices
+                        et préparés dans la tradition marocaine.
+                    </p>
 
                 </div>
 
-                <div class="food-content">
+            </article>
 
-                    <span>01</span>
 
-                    <h3>
-                        Tajines
-                    </h3>
+            <article class="specialty-card">
+
+                <div class="specialty-image couscous-image"></div>
+
+                <div class="specialty-content">
+
+                    <span class="specialty-number">02</span>
+
+                    <h3>Couscous</h3>
 
                     <p>
-                        Des tajines mijotés lentement et parfumés
-                        aux épices marocaines.
+                        Une semoule délicate accompagnée de légumes,
+                        viandes et bouillon généreux.
                     </p>
+
+                </div>
+
+            </article>
+
+
+            <article class="specialty-card">
+
+                <div class="specialty-image pastilla-image"></div>
+
+                <div class="specialty-content">
+
+                    <span class="specialty-number">03</span>
+
+                    <h3>Pastillas</h3>
+
+                    <p>
+                        Une spécialité emblématique mêlant croustillant,
+                        fondant et parfums marocains.
+                    </p>
+
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- =========================
+     CARTE
+========================= -->
+
+<section id="carte" class="section menu-section">
+
+    <div class="section-container">
+
+        <div class="section-header">
+
+            <span class="section-tag">Notre carte</span>
+
+            <h2>À la carte</h2>
+
+            <p>
+                Découvrez un aperçu du menu que votre futur site pourrait présenter.
+            </p>
+
+        </div>
+
+
+        <div class="menu-demo-note">
+
+            <span class="note-icon">ℹ</span>
+
+            <div>
+                <strong>Carte de démonstration</strong>
+
+                <p>
+                    Les plats et tarifs présentés ici sont fictifs
+                    et servent uniquement à illustrer le rendu du site.
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="menu-grid">
+
+
+            <!-- TAJINES -->
+
+            <article class="menu-category">
+
+                <div class="menu-category-header">
+
+                    <span class="menu-icon">🥘</span>
+
+                    <div>
+                        <span class="menu-small-title">Tradition</span>
+                        <h3>Tajines</h3>
+                    </div>
+
+                </div>
+
+
+                <div class="menu-items">
+
+                    <div class="menu-item">
+
+                        <div>
+                            <h4>Tajine Poulet Citron & Olives</h4>
+                            <p>Poulet mijoté, citron confit et olives</p>
+                        </div>
+
+                        <strong>15,90 €</strong>
+
+                    </div>
+
+
+                    <div class="menu-item">
+
+                        <div>
+                            <h4>Tajine Kefta</h4>
+                            <p>Boulettes de viande, tomates et œuf</p>
+                        </div>
+
+                        <strong>16,90 €</strong>
+
+                    </div>
+
+
+                    <div class="menu-item">
+
+                        <div>
+                            <h4>Tajine Agneau & Pruneaux</h4>
+                            <p>Agneau fondant, pruneaux et amandes</p>
+                        </div>
+
+                        <strong>18,90 €</strong>
+
+                    </div>
 
                 </div>
 
@@ -200,58 +336,172 @@
 
             <!-- COUSCOUS -->
 
-            <article class="food-card">
+            <article class="menu-category">
 
-                <div class="food-image">
+                <div class="menu-category-header">
 
-                    <img
-                        src="https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?auto=format&fit=crop&w=900&q=80"
-                        alt="Couscous marocain">
+                    <span class="menu-icon">🥣</span>
+
+                    <div>
+                        <span class="menu-small-title">Généreux</span>
+                        <h3>Couscous</h3>
+                    </div>
 
                 </div>
 
-                <div class="food-content">
 
-                    <span>02</span>
+                <div class="menu-items">
 
-                    <h3>
-                        Couscous
-                    </h3>
+                    <div class="menu-item">
 
-                    <p>
-                        Une semoule délicate accompagnée de légumes,
-                        viandes et bouillon parfumé.
-                    </p>
+                        <div>
+                            <h4>Couscous Végétarien</h4>
+                            <p>Légumes mijotés, pois chiches et semoule</p>
+                        </div>
+
+                        <strong>13,90 €</strong>
+
+                    </div>
+
+
+                    <div class="menu-item">
+
+                        <div>
+                            <h4>Couscous Poulet</h4>
+                            <p>Poulet, légumes et semoule traditionnelle</p>
+                        </div>
+
+                        <strong>15,90 €</strong>
+
+                    </div>
+
+
+                    <div class="menu-item">
+
+                        <div>
+                            <h4>Couscous Royal</h4>
+                            <p>Agneau, poulet, merguez et légumes</p>
+                        </div>
+
+                        <strong>19,90 €</strong>
+
+                    </div>
 
                 </div>
 
             </article>
 
 
-            <!-- PASTILLAS -->
+            <!-- SPÉCIALITÉS -->
 
-            <article class="food-card">
+            <article class="menu-category">
 
-                <div class="food-image">
+                <div class="menu-category-header">
 
-                    <img
-                        src="https://images.unsplash.com/photo-1601050690117-94f5f6fa8bd7?auto=format&fit=crop&w=900&q=80"
-                        alt="Pastilla marocaine">
+                    <span class="menu-icon">🥟</span>
+
+                    <div>
+                        <span class="menu-small-title">À partager</span>
+                        <h3>Spécialités</h3>
+                    </div>
 
                 </div>
 
-                <div class="food-content">
 
-                    <span>03</span>
+                <div class="menu-items">
 
-                    <h3>
-                        Pastillas
-                    </h3>
+                    <div class="menu-item">
 
-                    <p>
-                        Une spécialité emblématique mêlant croustillant,
-                        épices et générosité.
-                    </p>
+                        <div>
+                            <h4>Pastilla</h4>
+                            <p>Spécialité croustillante aux saveurs marocaines</p>
+                        </div>
+
+                        <strong>16,90 €</strong>
+
+                    </div>
+
+
+                    <div class="menu-item">
+
+                        <div>
+                            <h4>Briouates</h4>
+                            <p>Assortiment de petites bouchées croustillantes</p>
+                        </div>
+
+                        <strong>8,90 €</strong>
+
+                    </div>
+
+
+                    <div class="menu-item">
+
+                        <div>
+                            <h4>Assiette découverte</h4>
+                            <p>Une sélection de spécialités marocaines</p>
+                        </div>
+
+                        <strong>17,90 €</strong>
+
+                    </div>
+
+                </div>
+
+            </article>
+
+
+            <!-- DESSERTS -->
+
+            <article class="menu-category">
+
+                <div class="menu-category-header">
+
+                    <span class="menu-icon">🍵</span>
+
+                    <div>
+                        <span class="menu-small-title">Douceurs</span>
+                        <h3>Desserts & boissons</h3>
+                    </div>
+
+                </div>
+
+
+                <div class="menu-items">
+
+                    <div class="menu-item">
+
+                        <div>
+                            <h4>Thé à la menthe</h4>
+                            <p>Thé traditionnel marocain</p>
+                        </div>
+
+                        <strong>3,50 €</strong>
+
+                    </div>
+
+
+                    <div class="menu-item">
+
+                        <div>
+                            <h4>Pâtisseries marocaines</h4>
+                            <p>Assortiment de douceurs traditionnelles</p>
+                        </div>
+
+                        <strong>6,00 €</strong>
+
+                    </div>
+
+
+                    <div class="menu-item">
+
+                        <div>
+                            <h4>Thé & pâtisseries</h4>
+                            <p>Thé à la menthe accompagné de douceurs</p>
+                        </div>
+
+                        <strong>7,50 €</strong>
+
+                    </div>
 
                 </div>
 
@@ -260,21 +510,14 @@
         </div>
 
 
-        <!-- CTA CARTE -->
-
         <div class="menu-cta">
 
-            <h3>
-                Envie de découvrir toute notre carte ?
-            </h3>
-
             <p>
-                Pour connaître nos plats disponibles,
-                contactez directement le restaurant.
+                Envie de découvrir Chez l’Walida ?
             </p>
 
             <a href="tel:0650630363" class="btn btn-primary">
-                📞 Appeler le restaurant
+                📞 Appeler pour réserver
             </a>
 
         </div>
@@ -284,42 +527,45 @@
 </section>
 
 
-<!-- ================= CITATION ================= -->
+<!-- =========================
+     CITATION
+========================= -->
 
-<section class="quote">
+<section class="quote-section">
 
-    <div class="container">
+    <div class="quote-container">
 
-        <span>«</span>
+        <span class="quote-mark">“</span>
 
         <blockquote>
-            Une cuisine généreuse, des produits savoureux
-            et un accueil chaleureux.
+            Une cuisine généreuse, un service chaleureux
+            et des saveurs qui donnent envie de revenir.
         </blockquote>
 
-        <p>
-            — Chez l’Walida
-        </p>
+        <span class="quote-author">
+            L’esprit de Chez l’Walida
+        </span>
 
     </div>
 
 </section>
 
 
-<!-- ================= POURQUOI NOUS ================= -->
+<!-- =========================
+     POURQUOI NOUS
+========================= -->
 
-<section class="why section">
+<section class="section why-section">
 
-    <div class="container">
+    <div class="section-container">
 
-        <div class="section-heading">
+        <div class="section-header">
 
-            <span class="section-label">
-                L’expérience Chez l’Walida
-            </span>
+            <span class="section-tag">Pourquoi nous choisir</span>
 
             <h2>
-                Pourquoi venir chez nous ?
+                Une expérience
+                <span>avant tout humaine</span>
             </h2>
 
         </div>
@@ -327,73 +573,43 @@
 
         <div class="why-grid">
 
-            <div class="why-item">
+            <div class="why-card">
 
-                <div class="why-number">
-                    01
-                </div>
+                <span class="why-icon">✦</span>
 
-                <h3>
-                    Cuisine authentique
-                </h3>
+                <h3>Cuisine généreuse</h3>
 
                 <p>
-                    Des recettes inspirées de la tradition
-                    marocaine.
+                    Des plats pensés pour être gourmands,
+                    généreux et conviviaux.
                 </p>
 
             </div>
 
 
-            <div class="why-item">
+            <div class="why-card">
 
-                <div class="why-number">
-                    02
-                </div>
+                <span class="why-icon">✦</span>
 
-                <h3>
-                    Plats généreux
-                </h3>
+                <h3>Saveurs authentiques</h3>
 
                 <p>
-                    Une cuisine pensée pour être partagée
-                    et savourée.
+                    Une cuisine inspirée des traditions
+                    marocaines.
                 </p>
 
             </div>
 
 
-            <div class="why-item">
+            <div class="why-card">
 
-                <div class="why-number">
-                    03
-                </div>
+                <span class="why-icon">✦</span>
 
-                <h3>
-                    Accueil chaleureux
-                </h3>
+                <h3>Accueil chaleureux</h3>
 
                 <p>
-                    Une atmosphère conviviale où l’on aime
-                    prendre le temps.
-                </p>
-
-            </div>
-
-
-            <div class="why-item">
-
-                <div class="why-number">
-                    04
-                </div>
-
-                <h3>
-                    À Muret
-                </h3>
-
-                <p>
-                    Retrouvez-nous au cœur de Muret,
-                    facilement accessible.
+                    Une atmosphère conviviale pour profiter
+                    pleinement de votre repas.
                 </p>
 
             </div>
@@ -405,25 +621,25 @@
 </section>
 
 
-<!-- ================= GALERIE ================= -->
+<!-- =========================
+     GALERIE
+========================= -->
 
-<section class="gallery section" id="galerie">
+<section id="galerie" class="section gallery-section">
 
-    <div class="container">
+    <div class="section-container">
 
-        <div class="section-heading">
+        <div class="section-header">
 
-            <span class="section-label">
-                En images
-            </span>
+            <span class="section-tag">Galerie</span>
 
             <h2>
-                Notre univers
+                Un aperçu de notre univers
             </h2>
 
             <p>
-                Quelques images pour vous donner un avant-goût
-                de l’expérience Chez l’Walida.
+                Quelques images pour donner envie de découvrir
+                l'expérience Chez l’Walida.
             </p>
 
         </div>
@@ -431,21 +647,35 @@
 
         <div class="gallery-grid">
 
-            <img
-                src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=900&q=80"
-                alt="Cuisine marocaine">
+            <div class="gallery-item gallery-large">
+                <img
+                    src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&fit=crop&w=1200&q=80"
+                    alt="Cuisine marocaine">
+            </div>
 
-            <img
-                src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=900&q=80"
-                alt="Plat marocain">
+            <div class="gallery-item">
+                <img
+                    src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80"
+                    alt="Restaurant">
+            </div>
 
-            <img
-                src="https://images.unsplash.com/photo-1604329760661-e71dc83f8f26?auto=format&fit=crop&w=900&q=80"
-                alt="Couscous marocain">
+            <div class="gallery-item">
+                <img
+                    src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80"
+                    alt="Plat généreux">
+            </div>
 
-            <img
-                src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=900&q=80"
-                alt="Restaurant">
+            <div class="gallery-item">
+                <img
+                    src="https://images.unsplash.com/photo-1515003197210-e0cd71810b5f?auto=format&fit=crop&w=800&q=80"
+                    alt="Cuisine traditionnelle">
+            </div>
+
+            <div class="gallery-item gallery-wide">
+                <img
+                    src="https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=1200&q=80"
+                    alt="Spécialités">
+            </div>
 
         </div>
 
@@ -454,28 +684,25 @@
 </section>
 
 
-<!-- ================= AVIS ================= -->
+<!-- =========================
+     AVIS
+========================= -->
 
-<section class="reviews section" id="avis">
+<section class="section reviews-section">
 
-    <div class="container">
+    <div class="section-container">
 
-        <div class="section-heading">
+        <div class="section-header">
 
-            <span class="section-label">
-                Ils nous recommandent
-            </span>
+            <span class="section-tag">Ils en parlent</span>
 
             <h2>
-                Vos avis
+                Nos clients nous recommandent
             </h2>
 
-            <div class="rating-big">
-                ★ 4,8 / 5
-            </div>
-
             <p>
-                65 avis Google
+                Une excellente note Google qui témoigne
+                de l'expérience de nos clients.
             </p>
 
         </div>
@@ -483,58 +710,63 @@
 
         <div class="reviews-grid">
 
-            <article class="review">
+            <article class="review-card">
 
-                <div class="stars">
+                <div class="review-stars">
                     ★★★★★
                 </div>
 
                 <p>
                     « Très belle cuisine ! Cuisine délicieuse,
-                    le service est chaleureux et les plats sont copieux. »
+                    le service est chaleureux, les plats sont copieux ! »
                 </p>
 
-                <strong>
-                    Anne Sophie
-                </strong>
+                <strong>Anne Sophie</strong>
 
             </article>
 
 
-            <article class="review">
+            <article class="review-card">
 
-                <div class="stars">
+                <div class="review-stars">
                     ★★★★★
                 </div>
 
                 <p>
-                    « Très bon restaurant, couscous royal,
-                    personnel très souriant. Je recommande vivement. »
+                    « Très bon restaurant, je me suis régalée
+                    avec un couscous royal et un petit thé et gâteaux. »
                 </p>
 
-                <strong>
-                    Martine F.
-                </strong>
+                <strong>Martine Faure</strong>
 
             </article>
 
 
-            <article class="review">
+            <article class="review-card">
 
-                <div class="stars">
+                <div class="review-stars">
                     ★★★★★
                 </div>
 
                 <p>
-                    « Des plats d'une grande qualité et de belles
-                    spécialités marocaines. »
+                    « Les plats sont d'une grande qualité.
+                    Une très belle découverte. »
                 </p>
 
-                <strong>
-                    Sarah B.
-                </strong>
+                <strong>Sarah Benabdallah</strong>
 
             </article>
+
+        </div>
+
+
+        <div class="google-rating">
+
+            <strong>4,8 / 5</strong>
+
+            <span>
+                ★★★★★ · 65 avis Google
+            </span>
 
         </div>
 
@@ -543,39 +775,41 @@
 </section>
 
 
-<!-- ================= INFORMATIONS ================= -->
+<!-- =========================
+     INFORMATIONS PRATIQUES
+========================= -->
 
-<section class="practical section">
+<section id="contact" class="section practical-section">
 
-    <div class="container">
+    <div class="section-container">
 
-        <div class="section-heading">
+        <div class="section-header">
 
-            <span class="section-label">
-                Informations pratiques
-            </span>
+            <span class="section-tag">Informations pratiques</span>
 
             <h2>
                 Venez nous rendre visite
             </h2>
 
+            <p>
+                Retrouvez facilement Chez l’Walida à Muret.
+            </p>
+
         </div>
 
 
-        <div class="info-grid">
+        <div class="practical-grid">
 
 
             <!-- ADRESSE -->
 
-            <div class="info-card">
+            <div class="practical-card">
 
-                <div class="info-icon">
+                <div class="practical-icon">
                     📍
                 </div>
 
-                <h3>
-                    Adresse
-                </h3>
+                <h3>Adresse</h3>
 
                 <p>
                     8 Rue Frédéric Petit<br>
@@ -585,39 +819,32 @@
                 <a
                     href="https://www.google.com/maps/search/?api=1&query=8+Rue+Frédéric+Petit+31600+Muret"
                     target="_blank"
-                    rel="noopener"
-                    class="btn btn-primary">
-
-                    📍 Voir l'itinéraire
-
+                    class="btn btn-outline">
+                    Voir l’itinéraire
                 </a>
 
             </div>
 
 
-            <!-- RESERVATION -->
+            <!-- RÉSERVATION -->
 
-            <div class="info-card">
+            <div class="practical-card">
 
-                <div class="info-icon">
+                <div class="practical-icon">
                     📞
                 </div>
 
-                <h3>
-                    Réserver
-                </h3>
+                <h3>Réservation</h3>
 
                 <p>
-                    Pour réserver votre table,
+                    Pour réserver une table,
                     contactez directement le restaurant.
                 </p>
 
                 <a
                     href="tel:0650630363"
                     class="btn btn-primary">
-
-                    📞 Appeler
-
+                    Appeler le restaurant
                 </a>
 
             </div>
@@ -625,37 +852,35 @@
 
             <!-- HORAIRES -->
 
-            <div class="info-card">
+            <div class="practical-card hours-card">
 
-                <div class="info-icon">
+                <div class="practical-icon">
                     🕐
                 </div>
 
-                <h3>
-                    Horaires
-                </h3>
+                <h3>Horaires</h3>
 
                 <div class="opening-hours">
 
-                    <p>
-                        <strong>Lundi – Jeudi</strong>
-                        <span>08h30 – 23h30</span>
-                    </p>
+                    <div>
+                        <span>Lundi – Jeudi</span>
+                        <strong>08h30 – 23h30</strong>
+                    </div>
 
-                    <p>
-                        <strong>Vendredi</strong>
-                        <span>08h30 – 00h30</span>
-                    </p>
+                    <div>
+                        <span>Vendredi</span>
+                        <strong>08h30 – 00h30</strong>
+                    </div>
 
-                    <p>
-                        <strong>Samedi</strong>
-                        <span>08h30 – 00h30</span>
-                    </p>
+                    <div>
+                        <span>Samedi</span>
+                        <strong>08h30 – 00h30</strong>
+                    </div>
 
-                    <p>
-                        <strong>Dimanche</strong>
-                        <span>08h30 – 23h30</span>
-                    </p>
+                    <div>
+                        <span>Dimanche</span>
+                        <strong>08h30 – 23h30</strong>
+                    </div>
 
                 </div>
 
@@ -668,49 +893,127 @@
 </section>
 
 
-<!-- ================= CONTACT ================= -->
+<!-- =========================
+     FAUX PLAN
+========================= -->
 
-<section class="contact section" id="contact">
+<section class="map-section">
 
-    <div class="container contact-box">
+    <div class="section-container">
 
-        <div>
+        <div class="section-header">
 
-            <span class="section-label">
-                Une question ?
-            </span>
+            <span class="section-tag">Nous trouver</span>
 
             <h2>
-                Parlons-en directement.
+                Au cœur de Muret
             </h2>
 
             <p>
-                Pour une réservation, une question ou simplement
-                pour découvrir notre cuisine, contactez-nous.
+                Une adresse facile à retrouver.
             </p>
 
         </div>
 
 
-        <div class="contact-buttons">
+        <div class="fake-map">
 
-            <a
-                href="tel:0650630363"
-                class="btn btn-primary">
+            <div class="map-road road-1"></div>
+            <div class="map-road road-2"></div>
+            <div class="map-road road-3"></div>
+            <div class="map-road road-4"></div>
 
-                📞 Appeler le 06 50 63 03 63
+            <div class="map-block block-1"></div>
+            <div class="map-block block-2"></div>
+            <div class="map-block block-3"></div>
+            <div class="map-block block-4"></div>
 
-            </a>
+            <div class="map-marker">
 
+                <div class="marker-pin">
+                    📍
+                </div>
+
+                <div class="marker-card">
+
+                    <strong>Chez l’Walida</strong>
+
+                    <span>
+                        8 Rue Frédéric Petit
+                    </span>
+
+                    <span>
+                        31600 Muret
+                    </span>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="map-bottom">
+
+            <div>
+
+                <strong>Chez l’Walida</strong>
+
+                <p>
+                    8 Rue Frédéric Petit, 31600 Muret
+                </p>
+
+            </div>
 
             <a
                 href="https://www.google.com/maps/search/?api=1&query=8+Rue+Frédéric+Petit+31600+Muret"
                 target="_blank"
-                rel="noopener"
-                class="btn btn-outline">
+                class="btn btn-primary">
+                📍 Ouvrir Google Maps
+            </a>
 
-                📍 Voir sur Google Maps
+        </div>
 
+    </div>
+
+</section>
+
+
+<!-- =========================
+     CONTACT FINAL
+========================= -->
+
+<section class="final-cta">
+
+    <div class="final-cta-content">
+
+        <span class="section-tag">
+            Une envie de cuisine marocaine ?
+        </span>
+
+        <h2>
+            Venez découvrir
+            <span>Chez l’Walida.</span>
+        </h2>
+
+        <p>
+            Pour toute réservation ou information,
+            contactez directement le restaurant.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a
+                href="tel:0650630363"
+                class="btn btn-light">
+                📞 06 50 63 03 63
+            </a>
+
+            <a
+                href="https://www.google.com/maps/search/?api=1&query=8+Rue+Frédéric+Petit+31600+Muret"
+                target="_blank"
+                class="btn btn-outline-light">
+                📍 Itinéraire
             </a>
 
         </div>
@@ -722,105 +1025,52 @@
 </main>
 
 
-<!-- ================= FOOTER ================= -->
+<!-- =========================
+     FOOTER
+========================= -->
 
 <footer class="footer">
 
-    <div class="container footer-grid">
+    <div class="footer-container">
 
+        <div class="footer-brand">
 
-        <div>
+            <strong>Chez l’Walida</strong>
 
-            <div class="footer-logo">
-                Chez l’Walida
-            </div>
-
-            <p>
-                Restaurant marocain à Muret.
-            </p>
+            <span>
+                Restaurant marocain à Muret
+            </span>
 
         </div>
 
 
-        <div>
+        <div class="footer-links">
 
-            <h4>
-                Navigation
-            </h4>
-
-            <a href="#restaurant">
-                Le restaurant
-            </a>
-
-            <a href="#carte">
-                La carte
-            </a>
-
-            <a href="#galerie">
-                Galerie
-            </a>
-
-            <a href="#avis">
-                Avis
-            </a>
+            <a href="#accueil">Accueil</a>
+            <a href="#restaurant">Le restaurant</a>
+            <a href="#carte">La carte</a>
+            <a href="#galerie">Galerie</a>
+            <a href="#contact">Contact</a>
 
         </div>
 
 
-        <div>
+        <div class="footer-bottom">
 
-            <h4>
-                Contact
-            </h4>
+            <span>
+                © 2026 Chez l’Walida
+            </span>
 
-            <a href="tel:0650630363">
-                📞 06 50 63 03 63
-            </a>
-
-            <a
-                href="https://www.google.com/maps/search/?api=1&query=8+Rue+Frédéric+Petit+31600+Muret"
-                target="_blank"
-                rel="noopener">
-
-                📍 8 Rue Frédéric Petit
-
-            </a>
+            <span>
+                Site de démonstration
+            </span>
 
         </div>
-
-    </div>
-
-
-    <div class="footer-bottom">
-
-        © 2026 Chez l’Walida — Tous droits réservés.
 
     </div>
 
 </footer>
 
-
-<!-- ================= SCRIPT ================= -->
-
-<script>
-
-    const header = document.querySelector(".header");
-
-    window.addEventListener("scroll", () => {
-
-        if (window.scrollY > 50) {
-
-            header.classList.add("scrolled");
-
-        } else {
-
-            header.classList.remove("scrolled");
-
-        }
-
-    });
-
-</script>
 
 </body>
 </html>
